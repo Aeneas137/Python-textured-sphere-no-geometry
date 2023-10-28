@@ -12,4 +12,6 @@ Original code packed 5,6,5 into an 8-bit short int:
 
 This RGB packing can be removed from the Python code and better optimized. It's just sort of ignored for now which is inefficient. TEX_SIZE should be passable but code must be cleaned up first.
 
+There's a problem with the textures not lining up at the wrap point. This is due to sloppy float-int truncation that needs attention. It did not do this in the C++ code. But in the interest of making this code more useful, the integer packing should not be used.
+
 Contributions requested! It would be fun to see what the community can do to improve this code. I will be the first to admit this Python code needs work.
