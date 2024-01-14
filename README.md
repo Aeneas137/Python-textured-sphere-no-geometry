@@ -7,6 +7,7 @@ I spent many hours searching for Python code to meet this need for a project but
 Originally adapted from code posted by Plucky on allegro.cc 05/22/2002:
 https://www.allegro.cc/forums/thread/186206/186206#target
 
+
 Original code packed 5,6,5 into an 8-bit short int: 
 "TEX_SIZE must be <= 256 due to coord_transform_table holding shorts. In this code, it needs to be a power of 2, but a couple of minor tweaks, and this constraint can go away."
 
