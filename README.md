@@ -18,3 +18,5 @@ There's a problem with the textures not lining up at the wrap point. This is due
 Contributions requested! It would be fun to see what the community can do to improve this code. I will be the first to admit this Python code needs work.
 
 ![TexturedSphere](https://github.com/Aeneas137/Python-textured-sphere-no-geometry/assets/46901366/732474b3-d29b-4f68-8635-83b233e8b266)
+
+TortoiseGIT test
